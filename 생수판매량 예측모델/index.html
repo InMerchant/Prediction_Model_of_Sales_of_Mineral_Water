@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Water Sales Prediction</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+</head>
+<body>
+    <h1>Water Sales Prediction</h1>
+    <div>
+        <label for="temperature">Temperature (°C) (20~35): </label>
+        <input type="number" id="temperature" value="20">
+    </div>
+    <div>
+        <label for="humidity">Humidity (%) (50~90): </label>
+        <input type="number" id="humidity" value="50">
+    </div>
+    <button onclick="predictSales()">Predict Sales</button>
+    <p>Predicted Sales: <span id="predictSales">-</span></p>
+
+    <script src="predict.js"></script>
+</body>
+</html>

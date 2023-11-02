@@ -1,0 +1,4 @@
+VSCODE 터미널에서
+npm install http-server -g
+npx http-server
+두 명령어 실행 후 보이는 주소로 들어가면 실행됩니다.
